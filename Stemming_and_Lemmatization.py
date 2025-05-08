@@ -228,7 +228,7 @@ lemmatizer = WordNetLemmatizer()
 
 for word in words:
     lemmatized = word + " ---------------- > " + lemmatizer.lemmatize(word, pos='v')
-    print(lemmatized)
+    # print(lemmatized)
 
 #! ::: OutPut :::
 
